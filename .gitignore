@@ -1,0 +1,68 @@
+# Ignore the Go binary
+/go-echo-server
+
+# Ignore the executable binary if it is generated in the project directory
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go standard build artifacts
+*.out
+*.a
+
+# Go module files
+/go.sum
+/go.mod
+
+# Ignore the vendor directory (if you're not vendoring dependencies)
+vendor/
+
+# Node modules (if you have any JavaScript dependencies in your project)
+node_modules/
+
+# Ignore IDE-specific and editor-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore coverage reports
+coverage.out
+
+# Ignore test result files
+*.test
+
+# Ignore compiled static assets
+static/dist/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore Docker-related files
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+Dockerfile.*
+
+# Ignore build directories
+/build/
+dist/
+
+# Ignore Mac OS specific files
+.DS_Store
+
+# Ignore archives and compression files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar
+*.gz
+
+# Ignore configuration files that should not be shared
+.env
