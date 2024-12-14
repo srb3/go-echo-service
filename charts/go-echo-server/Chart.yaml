@@ -1,0 +1,6 @@
+# Chart.yaml
+apiVersion: v2
+name: go-echo-server
+description: A Helm chart for Go Echo Server
+version: 0.1.0
+appVersion: "v0.2.0"
